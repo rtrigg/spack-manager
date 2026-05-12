@@ -5,9 +5,9 @@ name: Spack-Manager Tests
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main, develop, ci-test-spack-version ]
   pull_request:
-    branches: [ main, develop ]
+    branches: [ main, develop, ci-test-spack-version ]
   workflow_dispatch:
   schedule:
   - cron: "0 8 * * *"
